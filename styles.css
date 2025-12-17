@@ -1,0 +1,299 @@
+/* ===== Base Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+}
+
+h1 {
+    text-align: center;
+    font-size:84px;   /* increase as needed */
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;   /* increase as needed */
+}
+/* ================= HEADER BANNER ================= */
+.top-header {
+    width: 100%;
+    text-align: center;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ===== Hero Section ===== */
+/* Hero */
+.compact-hero {
+    background-image: linear-gradient(rgba(0,29,61,.85), rgba(0,29,61,.85)),
+                      url('sdg-header.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.compact-hero h1 { color:#00d4ff; font-size:60px; }
+.subtitle { color:#ffd500; }
+
+/* Buttons */
+.btn-primary {
+    background:#ff8800;
+    color:#fff;
+    padding:10px 24px;
+    border-radius:25px;
+    text-decoration:none;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.btn-primary:hover { background:#cc6e00; }
+
+.btn-secondary {
+    background:#0066cc;
+    color:#fff;
+    padding:10px 20px;
+    border-radius:5px;
+    text-decoration:none;
+    display:inline-block;
+}
+
+/* ===== Footer ===== */
+.footer {
+    background-color: #001d3d;
+    color: #e0e0e0;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer-block {
+    width: 100%;
+    max-width: 480px;
+    margin-bottom: 20px;
+}
+
+.footer-block h4 {
+    color: #ffd500;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-link {
+    color: #00d4ff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    background: #000f1f;
+    padding: 12px 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+=============================
+.dates-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.dates-table th {
+    background-color: #004080;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+}
+
+.dates-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.dates-table tr:nth-child(even) {
+    background-color: #f4f6f8;
+}
+
+/* ===== Speakers Section ===== */
+.speaker-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.speaker-card {
+    width: 320px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.speaker-card:hover {
+    transform: translateY(-8px);
+}
+
+.speaker-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #004080;
+}
+
+.speaker-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.speaker-info h3 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: #004080;
+}
+
+.designation {
+    font-weight: bold;
+    color: #ff8800;
+    margin-bottom: 8px;
+}
+
+.institution {
+    color: #333;
+    font-size: 15px;
+}
+=======================================
+/* ===== Registration Fees Table ===== */
+.fees-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.fees-table th {
+    background-color: #004080;
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+}
+
+.fees-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.fees-table tr:nth-child(even) {
+    background-color: #f4f6f8;
+}
+
+.note {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b00020;
+}
+==========================
+.section-title {
+    font-size: 22px;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: bold;
+}
+.section-title::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #ff8800;
+    display: block;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+/* ===== Speakers Section ===== */
+#speakers {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.speaker-grid {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.speaker-card {
+    width: 260px;
+    text-align: center;
+}
+
+.speaker-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 6px solid #f4f6f8;
+}
+
+.speaker-card h3 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.speaker-card p {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ===== About Conference Section ===== */
+.about-section {
+    text-align: center;
+}
+
+.about-text {
+    max-width: 900px;
+    margin: 0 auto 15px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #333;
+   
+}
+================
+.conference-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    font-size: 46px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #00d4ff, #ffd500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+    text-shadow: 0 0 18px rgba(0, 212, 255, 0.45);
+}
