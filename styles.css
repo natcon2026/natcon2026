@@ -8,9 +8,10 @@ body {
 }
 /* LOGO */
 .natcon-logo {
-    width: 180px;          /* perfect size */
+    width: 110px;          /* perfect size */
     max-width: 90%;
-    margin-bottom: 20px;
+    height: auto;
+    margin-bottom: 10px;
     filter: drop-shadow(0 6px 12px rgba(0,0,0,0.35));
 }
 
@@ -420,3 +421,4 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
