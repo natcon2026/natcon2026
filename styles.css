@@ -8,22 +8,17 @@ body {
 }
 .abstract-section {
     margin-top: 60px;
-    text-align: center;
-}
-
-.abstract-section h2 {
-    font-size: 32px;
-    color: #1a237e; /* deep blue */
-    margin-bottom: 25px;
-    font-weight: 700;
+    text-align: center;   /* centers heading + image */
 }
 
 .abstract-img {
+    display: block;       /* REQUIRED */
+    margin: 0 auto;       /* centers image */
     max-width: 100%;
-    width: 900px;          /* controls size */
+    width: 900px;         /* adjust if needed */
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 /* LOGO */
 .natcon-logo {
@@ -442,6 +437,7 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
 
 
 
