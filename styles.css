@@ -15,7 +15,7 @@ body {
     display: block;       /* REQUIRED */
     margin: 0 auto;       /* centers image */
     max-width: 100%;
-    width: 350px;         /* adjust if needed */
+    width: 650px;         /* adjust if needed */
     height: auto;
     border-radius: 8px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
@@ -437,6 +437,7 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
 
 
 
