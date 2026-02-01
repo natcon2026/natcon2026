@@ -6,6 +6,19 @@ body {
     color: #333;
 
 }
+.abstract-section1 {
+    margin-top: 60px;
+    text-align: center;   /* centers heading + image */
+}
+
+.abstract-imglogo {
+    display: block;       /* REQUIRED */
+    margin: 0 auto;       /* centers image */
+    max-width: 100%;
+    width: 900px;         /* adjust if needed */
+    height: auto;
+    border-radius: 10px;
+}
 
 .abstract-section {
     margin-top: 60px;
@@ -438,6 +451,7 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
 
 
 
