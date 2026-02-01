@@ -38,7 +38,7 @@ body {
     object-fit: cover;        /* avoids stretching */
     display: block;
     margin: 0 auto 5px;
-    border: 2px solid #6a1b9a; /* optional violet border */
+    border: 2px solid #1ab7d8; /* optional violet border */
 }
 
 h1 {
@@ -447,6 +447,7 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
 
 
 
