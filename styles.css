@@ -34,6 +34,15 @@ body {
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+/* 25 year logo*/
+.25year-logo {
+    width: 190px;              /* very small size */
+    height: 190px;             /* equal width & height */
+    border-radius: 50%;       /* makes it round */
+    object-fit: cover;        /* avoids stretching */
+    display: block;
+    margin: 0 auto 5px;
+}
 /* LOGO */
 .natcon-logo {
     width: 190px;              /* very small size */
@@ -451,6 +460,7 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
 
 
 
