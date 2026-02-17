@@ -1,3 +1,49 @@
+/* ===== Announcement Box ===== */
+.announcement-box {
+    background: linear-gradient(135deg, #ff8800, #ffcc00);
+    color: #000;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    animation: pulseGlow 2s infinite alternate;
+}
+
+.announcement-box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.announce-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.announce-text {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.announce-highlight {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b00020;
+}
+
+.announce-contact {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* Soft glowing effect */
+@keyframes pulseGlow {
+    from { box-shadow: 0 0 15px rgba(255,136,0,0.6); }
+    to { box-shadow: 0 0 30px rgba(255,204,0,0.9); }
+}
+
 /* ===== Base Styles ===== */
 body {
     font-family: Arial, sans-serif;
@@ -447,6 +493,7 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
 
 
 
