@@ -14,7 +14,7 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: bold;
-    animation: heroScroll 18s linear infinite;
+    animation: heroScroll 25s linear infinite;
 }
 
 /* Smooth scrolling animation */
@@ -523,6 +523,7 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
 
 
 
