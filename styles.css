@@ -1,4 +1,13 @@
+
 /* ===== Moving Announcement Bar ===== */
+.announcement-marquee {
+    background: linear-gradient(90deg, #ff0000, #ff8800);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 0;
+}
+
 .announcement-bar {
     background: linear-gradient(90deg, #ff0000, #ff8800);
     overflow: hidden;
@@ -514,6 +523,7 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
 
 
 
