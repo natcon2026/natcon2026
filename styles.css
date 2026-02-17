@@ -1,33 +1,33 @@
-
-/* ===== Moving Announcement Bar ===== */
-.announcement-marquee {
-    background: linear-gradient(90deg, #ff0000, #ff8800);
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 12px 0;
-}
-
-.announcement-bar {
+/* ===== Hero Announcement Marquee ===== */
+.hero-announcement {
     background: linear-gradient(90deg, #ff0000, #ff8800);
     overflow: hidden;
     white-space: nowrap;
-    padding: 12px 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
 
-.announcement-track {
+.hero-announcement-track {
     display: inline-block;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-    animation: scrollLeft 15s linear infinite;
+    padding: 10px 0;
     padding-left: 100%;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    animation: heroScroll 18s linear infinite;
 }
 
-@keyframes scrollLeft {
+/* Smooth scrolling animation */
+@keyframes heroScroll {
     from { transform: translateX(0); }
     to { transform: translateX(-100%); }
 }
+
+/* Pause on hover */
+.hero-announcement:hover .hero-announcement-track {
+    animation-play-state: paused;
+}
+
 /* ===== Announcement Box ===== */
 .announcement-box {
     background: linear-gradient(135deg, #ff8800, #ffcc00);
@@ -523,6 +523,7 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
 
 
 
