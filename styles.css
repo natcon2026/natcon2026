@@ -1,3 +1,25 @@
+.advisory-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.advisory-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 40px;
+}
+
+.advisory-grid p {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .advisory-grid {
+        grid-template-columns: 1fr;
+    }
+}
 /* ===== Hero Announcement Marquee ===== */
 .hero-announcement {
     background: linear-gradient(90deg, #ff0000, #ff8800);
@@ -523,6 +545,7 @@ font-family: "Bookman Old Style", serif;
     letter-spacing: 0.5px;
 
 }
+
 
 
 
