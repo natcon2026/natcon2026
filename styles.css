@@ -4,9 +4,10 @@
 }
 /* ================= PROGRAM HIGHLIGHT ================= */
 .program-highlight {
-    background: linear-gradient(135deg, #002147, #0056b3);
-    padding: 50px 20px;
+    background: none;   /* remove blue */
+    padding: 40px 20px;
     text-align: center;
+}
 }
 
 .program-box {
@@ -15,7 +16,13 @@
     background: #ffffff;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+
+    /* 🔥 Highlight Border */
+    border: 3px solid #ff6600;
+
+    /* Soft shadow for depth */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
 }
 
 .program-box h2 {
