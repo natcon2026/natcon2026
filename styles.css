@@ -4,10 +4,9 @@
 }
 /* ================= PROGRAM HIGHLIGHT ================= */
 .program-highlight {
-    background: none;   /* remove blue */
+    background: none;
     padding: 40px 20px;
     text-align: center;
-}
 }
 
 .program-box {
@@ -17,12 +16,11 @@
     padding: 30px;
     border-radius: 12px;
 
-    /* 🔥 Highlight Border */
+    /* Highlight Border */
     border: 3px solid #ff6600;
 
-    /* Soft shadow for depth */
+    /* Shadow */
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
 }
 
 .program-box h2 {
@@ -44,18 +42,6 @@
 .program-btn:hover {
     background: #cc5200;
     transform: scale(1.05);
-}
-
-
-.advisory-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px 40px;
-}
-
-.advisory-grid p {
-    margin: 0;
-    font-weight: 500;
 }
 
 /* Mobile Responsive */
